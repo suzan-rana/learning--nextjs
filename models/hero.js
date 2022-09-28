@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 
 //creating a schema or a model 
 const HeroSchema = mongoose.Schema({
-    superhero: {
+    superHero: {
         type: String,
         required: true,
         unique: true,
